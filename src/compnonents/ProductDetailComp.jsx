@@ -18,7 +18,8 @@ const ProductDetailComp = ({ prop }) => {
   const imgRef = useRef();
   const [isAdded2Cart, setIsAdded2Cart] = useState(false);
   const [productById, setProductById] = useState(false);
-
+  
+  console.log(id)
   useEffect(() => {
     if (id && productList.length > 0) {
       const filtered = productList.find((item) => item._id === id);
@@ -29,10 +30,12 @@ const ProductDetailComp = ({ prop }) => {
   }, [id, productList]);
 
   const product = productById || location.state;
-  console.log(product);
+  // console.log(product);
 
   useEffect(() => {
+    if (product) {
     window.scrollTo(0, 0);
+    }
   }, [product]);
 
   useEffect(() => {

@@ -19,7 +19,6 @@ const ProductDetailComp = ({ prop }) => {
   const [isAdded2Cart, setIsAdded2Cart] = useState(false);
   const [productById, setProductById] = useState(false);
   
-  console.log(id)
   useEffect(() => {
     if (id && productList.length > 0) {
       const filtered = productList.find((item) => item._id === id);

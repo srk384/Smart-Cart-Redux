@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: '/',
+  baseUrl: 'https://smart-cart-redux.onrender.com/',
   prepareHeaders: (headers) => {
     const token = localStorage.getItem('token');
     if (token) {

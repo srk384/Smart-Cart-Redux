@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const productDataApi = createApi({
   reducerPath: "storeAPI",
-  baseQuery: fetchBaseQuery({ baseUrl: "/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://smart-cart-redux.onrender.com/" }),
   endpoints: (builder) => ({
     getProductList: builder.query({
       query: (id) => ({

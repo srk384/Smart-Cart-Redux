@@ -1,0 +1,961 @@
+export const productArray = [
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212da",
+    id: 1,
+    title: "Mountain Print T-Shirt",
+    price: 1200,
+    description:
+      "Mountain Print T-Shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    images: [
+      "https://iili.io/dR1Eyiv.jpg",
+      "https://iili.io/dR1EDDg.jpg",
+      "https://iili.io/dR1Emxa.jpg",
+    ],
+    quantity: 1,
+    tag: "New",
+    ratings: 5,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212dc",
+    id: 4,
+    title: "Electronic Bronze Hoodie",
+    price: 6566,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1kSbR.jpg",
+      "https://iili.io/dR1k4sI.jpg",
+      "https://iili.io/dR1kPft.jpg",
+    ],
+    quantity: 1,
+    tag: "New",
+    ratings: 4.5,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212dd",
+    id: 5,
+    title: "Intelligent Black Hoodie",
+    price: 622,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1ki0X.jpg",
+      "https://iili.io/dR1ksgn.jpg",
+      "https://iili.io/dR1ktef.jpg",
+    ],
+    quantity: 1,
+    tag: "Hot",
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212db",
+    id: 2,
+    title: "Handcrafted Red Hoodie",
+    price: 280,
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    images: [
+      "https://iili.io/dAyUpkJ.jpg",
+      "https://iili.io/dAygJXp.jpg",
+      "https://iili.io/dAygHIR.jpg",
+    ],
+    quantity: 1,
+    tag: "New",
+    ratings: 5,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212de",
+    id: 6,
+    title: "Handcrafted Rubber Lower",
+    price: 488,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR1EZR1.jpg",
+      "https://iili.io/dR1GHfR.jpg",
+      "https://iili.io/dR1GdUN.jpg",
+    ],
+    quantity: 1,
+    tag: "Hot",
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212df",
+    id: 7,
+    title: "Awesome Peach Lower",
+    price: 890,
+    description:
+      "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+    images: ["https://iili.io/dR1G3JI.jpg", "https://iili.io/dR1GKOX.jpg"],
+    quantity: 1,
+    tag: "Hot",
+    ratings: 4.5,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e0",
+    id: 8,
+    title: "Incredible Steel Mouse",
+    price: 356,
+    description:
+      "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    images: [
+      "https://iili.io/dR9YBln.jpg",
+      "https://iili.io/dR9YoHG.jpg",
+      "https://iili.io/dR9YCSs.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e1",
+    id: 9,
+    title: "Practical Granite Pants",
+    price: 655,
+    description:
+      "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    images: [
+      "https://iili.io/dR1wqYv.jpg",
+      "https://iili.io/dR1wtnt.jpg",
+      "https://iili.io/dR1wDMX.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e2",
+    id: 10,
+    title: "Licensed Soft Ball",
+    price: 482,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR17hYu.jpg",
+      "https://iili.io/dR17V49.jpg",
+      "https://iili.io/dR17X2e.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e3",
+    id: 11,
+    title: "Unbranded Cotton Pizza",
+    price: 38,
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    images: [
+      "https://iili.io/dR1aaWl.jpg",
+      "https://iili.io/dR1acs2.jpg",
+      "https://iili.io/dR1aYx4.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e4",
+    id: 12,
+    title: "Generic Soft Bike",
+    price: 485,
+    description: "The Football Is Good For Training And Recreational Purposes",
+    images: [
+      "https://iili.io/dR1kmzl.jpg",
+      "https://iili.io/dR1vJ19.jpg",
+      "https://iili.io/dR1kpX2.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e5",
+    id: 13,
+    title: "Electronic Metal Tuna",
+    price: 570,
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    images: ["https://iili.io/dR1vHq7.jpg", "https://iili.io/dR1vdge.jpg"],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e6",
+    id: 14,
+    title: "Rustic Fresh Mouse",
+    price: 146,
+    description: "The Football Is Good For Training And Recreational Purposes",
+    images: [
+      "https://iili.io/dR1vfmx.jpg",
+      "https://iili.io/dR1vBzQ.jpg",
+      "https://iili.io/dR1vCXV.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e7",
+    id: 15,
+    title: "Intelligent Soft Pants",
+    price: 484,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1vz11.jpg",
+      "https://iili.io/dR1vIrF.jpg",
+      "https://iili.io/dR1vA7a.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e8",
+    id: 16,
+    title: "Handcrafted Rubber Chair",
+    price: 72,
+    description: "The Football Is Good For Training And Recreational Purposes",
+    images: [
+      "https://iili.io/dR1vRkJ.jpg",
+      "https://iili.io/dR1v5mv.jpg",
+      "https://iili.io/dR1vcLN.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 1,
+      name: "Clothes",
+    },
+    _id: "659e8a485f3b1887ef3212e9",
+    id: 17,
+    title: "Fantastic Frozen Keyboard",
+    price: 591,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR1vcLN.jpg",
+      "https://iili.io/dR1v0BI.jpg",
+      "https://iili.io/dR1vErX.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212ea",
+    id: 18,
+    title: "Sleek Wooden Salad",
+    price: 462,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR1wxjI.jpg",
+      "https://iili.io/dR1wTCX.jpg",
+      "https://iili.io/dR1wuGn.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212eb",
+    id: 19,
+    title: "Electronic Cotton Bacon",
+    price: 926,
+    description:
+      "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    images: [
+      "https://iili.io/dR1wA4s.jpg",
+      "https://iili.io/dR1wYv4.jpg",
+      "https://iili.io/dR1wayl.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212ec",
+    id: 20,
+    title: "Awesome Concrete Keyboard",
+    price: 57,
+    description:
+      "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    images: [
+      "https://iili.io/dR1vV7s.jpg",
+      "https://iili.io/dR1vWkG.jpg",
+      "https://iili.io/dR1vjI4.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212ed",
+    id: 21,
+    title: "Luxurious Frozen Cheese",
+    price: 976,
+    description:
+      "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    images: [
+      "https://iili.io/dR1Z4lj.jpg",
+      "https://iili.io/dR1ZrKb.jpg",
+      "https://iili.io/dR1Z8x9.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212ee",
+    id: 22,
+    title: "Handmade Metal Fish",
+    price: 7,
+    description:
+      "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+    images: [
+      "https://iili.io/dR1ZUiu.jpg",
+      "https://iili.io/dR1ZsRV.jpg",
+      "https://iili.io/dR1ZQDP.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212ef",
+    id: 23,
+    title: "Fantastic Steel Pants",
+    price: 3,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1a5bf.jpg",
+      "https://iili.io/dR1aEg9.jpg",
+      "https://iili.io/dR1aMJe.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212f0",
+    id: 24,
+    title: "Refined Frozen Towels",
+    price: 266,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1wlu2.jpg",
+      "https://iili.io/dR1w0jS.jpg",
+      "https://iili.io/dR1w1Z7.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212f1",
+    id: 25,
+    title: "Bespoke Cotton Mouse",
+    price: 461,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1GBxs.jpg",
+      "https://iili.io/dR1GCWG.jpg",
+      "https://iili.io/dR1Gnsf.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212f2",
+    id: 26,
+    title: "Refined Bronze Chair",
+    price: 581,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1Gxf4.jpg",
+      "https://iili.io/dR1Gz0l.jpg",
+      "https://iili.io/dR1GIg2.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    _id: "659e8a485f3b1887ef3212f3",
+    id: 27,
+    title: "Recycled Fresh Cheese",
+    price: 884,
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    images: [
+      "https://iili.io/dR1wV6u.jpg",
+      "https://iili.io/dR1wX3b.jpg",
+      "https://iili.io/dR1whaj.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f4",
+    id: 28,
+    title: "Licensed Fresh Shoes",
+    price: 408,
+    description:
+      "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    images: [
+      "https://iili.io/dR1wj8x.jpg",
+      "https://iili.io/dR1wewB.jpg",
+      "https://iili.io/dR1wkZP.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f5",
+    id: 29,
+    title: "Recycled Concrete Pizza",
+    price: 780,
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    images: [
+      "https://iili.io/dR1GuJS.jpg",
+      "https://iili.io/dR1GRe9.jpg",
+      "https://iili.io/dR1GaWb.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f6",
+    id: 30,
+    title: "Handcrafted Frozen Chair",
+    price: 724,
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    images: [
+      "https://iili.io/dR1ZDWF.jpg",
+      "https://iili.io/dR1Zpfa.jpg",
+      "https://iili.io/dR1Zbig.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f7",
+    id: 31,
+    title: "Unbranded Fresh Pizza",
+    price: 568,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1aXbj.jpg",
+      "https://iili.io/dR1ajzx.jpg",
+      "https://iili.io/dR1awWQ.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f8",
+    id: 32,
+    title: "Licensed Cotton Chair",
+    price: 509,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1wi9R.jpg",
+      "https://iili.io/dR1w8n1.jpg",
+      "https://iili.io/dR1wU6g.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212f9",
+    id: 33,
+    title: "Elegant Rubber Chips",
+    price: 338,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR1w68v.jpg",
+      "https://iili.io/dR1wLwN.jpg",
+      "https://iili.io/dR1wQtI.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    _id: "659e8a485f3b1887ef3212fa",
+    id: 34,
+    title: "Small Cotton Gloves",
+    price: 643,
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J\nThe Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800JThe Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    images: ["https://iili.io/dR1wLwN.jpg", "https://iili.io/dR1wQtI.jpg"],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef3212fb",
+    id: 35,
+    title: "Electronic Metal Towels",
+    price: 987,
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    images: [
+      "https://iili.io/dR1G0qx.jpg",
+      "https://iili.io/dR1G10Q.jpg",
+      "https://iili.io/dR1GMdB.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef3212fc",
+    id: 37,
+    title: "Ergonomic Metal Keyboard",
+    price: 562,
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    images: [
+      "https://iili.io/dR1GXmF.jpg",
+      "https://iili.io/dR1GwXa.jpg",
+      "https://iili.io/dR1GNLJ.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef3212fd",
+    id: 38,
+    title: "Unbranded Concrete Cheese",
+    price: 975,
+    description:
+      "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    images: [
+      "https://iili.io/dR1Zy0J.jpg",
+      "https://iili.io/dR1t2ON.jpg",
+      "https://iili.io/dR1tn0G.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef3212fe",
+    id: 39,
+    title: "Tasty Steel Car",
+    price: 850,
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    images: [
+      "https://iili.io/dR1tfWX.jpg",
+      "https://iili.io/dR1tCfs.jpg",
+      "https://iili.io/dR1togf.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef3212ff",
+    id: 40,
+    title: "Oriental Bronze Computer",
+    price: 456,
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    images: [
+      "https://iili.io/dR1lRn4.jpg",
+      "https://iili.io/dR1l5Ml.jpg",
+      "https://iili.io/dR1l7P2.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef321300",
+    id: 41,
+    title: "Incredible Concrete Hat",
+    price: 716,
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    images: [
+      "https://iili.io/dR1lutf.jpg",
+      "https://iili.io/dR1lcc7.jpg",
+      "https://iili.io/dR1llS9.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef321301",
+    id: 42,
+    title: "Unbranded Granite Computer",
+    price: 294,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1kERj.jpg",
+      "https://iili.io/dR1kcle.jpg",
+      "https://iili.io/dR1klUu.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef321302",
+    id: 43,
+    title: "Awesome Rubber Fish",
+    price: 136,
+    description:
+      "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    images: [
+      "https://iili.io/dR1k1Hb.jpg",
+      "https://iili.io/dR1kMDQ.jpg",
+      "https://iili.io/dR1kWxV.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 4,
+      name: "Shoes",
+    },
+    _id: "659e8a485f3b1887ef321303",
+    id: 44,
+    title: "Electronic Concrete Sausages",
+    price: 90,
+    description:
+      "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    images: [
+      "https://iili.io/dR1tTe2.jpg",
+      "https://iili.io/dR1tc0b.jpg",
+      "https://iili.io/dR1tc0b.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321304",
+    id: 45,
+    title: "Fantastic Soft Computer",
+    price: 114,
+    description:
+      "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    images: [
+      "https://iili.io/dR1lEAu.jpg",
+      "https://iili.io/dR1lMtj.jpg",
+      "https://iili.io/dR1lWox.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321305",
+    id: 46,
+    title: "Awesome Metal Soap",
+    price: 257,
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    images: [
+      "https://iili.io/dR1lXMQ.jpg",
+      "https://iili.io/dR1lhPV.jpg",
+      "https://iili.io/dR1lwKB.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321306",
+    id: 47,
+    title: "Unbranded Steel Towels",
+    price: 225,
+    description: "The Football Is Good For Training And Recreational Purposes",
+    images: [
+      "https://iili.io/dR1lNcP.jpg",
+      "https://iili.io/dR1lOS1.jpg",
+      "https://iili.io/dR1lkHF.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321307",
+    id: 48,
+    title: "Generic Frozen Hat",
+    price: 41,
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    images: [
+      "https://iili.io/dR1Gjzg.jpg",
+      "https://iili.io/dR1Gk1R.jpg",
+      "https://iili.io/dR1GSdN.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321308",
+    id: 49,
+    title: "Ergonomic Frozen Towels",
+    price: 315,
+    description:
+      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    images: [
+      "https://iili.io/dR1taqu.jpg",
+      "https://iili.io/dR1tE5Q.jpg",
+      "https://iili.io/dR1tMmB.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef321309",
+    id: 50,
+    title: "Recycled Cotton Sausages",
+    price: 258,
+    description:
+      "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    images: [
+      "https://iili.io/dR1kXWB.jpg",
+      "https://iili.io/dR1kkJa.jpg",
+      "https://iili.io/dR1k8Ov.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    category: {
+      id: 5,
+      name: "Miscellaneous",
+    },
+    _id: "659e8a485f3b1887ef32130a",
+    id: 51,
+    title: "Sleek Wooden Hat",
+    price: 547,
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    images: [
+      "https://iili.io/dR1Gget.jpg",
+      "https://iili.io/dR1GrmX.jpg",
+      "https://iili.io/dR1G6In.jpg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    id: 52,
+    title: "Efficient 2-Slice Toaster",
+    price: 4800,
+    description:
+      "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
+    category: {
+      id: 2,
+      name: "Electronics",
+    },
+    images: [
+      "https://i.imgur.com/keVCVIa.jpeg",
+      "https://i.imgur.com/afHY7v2.jpeg",
+      "https://i.imgur.com/yAOihUe.jpeg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+  {
+    id: 53,
+    title: "Sleek Modern Leather Sofa",
+    price: 53000,
+    description:
+      "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+    category: {
+      id: 3,
+      name: "Furniture",
+    },
+    images: [
+      "https://i.imgur.com/Qphac99.jpeg",
+      "https://i.imgur.com/dJjpEgG.jpeg",
+      "https://i.imgur.com/MxJyADq.jpeg",
+    ],
+    quantity: 1,
+    ratings: 4,
+  },
+];
+
+

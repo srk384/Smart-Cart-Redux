@@ -4,6 +4,8 @@ import LoadingFallback from "../LoadingFallback";
 import { useDispatch } from "react-redux";
 import { setUser } from "../../redux/slices/productDataSlice";
 import { useEffect } from "react";
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 
 const ProtectedRoute = ({ children }) => {
   const dispatch = useDispatch();
@@ -24,7 +26,7 @@ const ProtectedRoute = ({ children }) => {
 
   // 1. Wait for JWT verification to finish
   if (isLoading) {
-    return <LoadingFallback />;
+    return <><Navbar/><LoadingFallback /><Footer/></>;
   }
 
   // 2. If verification fails, redirect to login

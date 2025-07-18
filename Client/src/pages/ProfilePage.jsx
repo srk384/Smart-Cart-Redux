@@ -9,7 +9,7 @@ const ProfilePage = () => {
   return (
     <div>
       <Navbar/>
-      <Dashboard user = {user}/>  //pass user here
+      <Dashboard user = {user}/> 
       <Footer/>
     </div>
   )

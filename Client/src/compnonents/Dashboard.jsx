@@ -15,14 +15,14 @@ const Dashboard = ({
   return (
     <div className="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
-      <aside className="hidden w-64 flex-col justify-between bg-white shadow-lg md:flex">
+      <aside className=" max-w-64 flex-col justify-between bg-white shadow-lg md:flex">
         <div>
           <nav className="mt-4">
-            <div className="flex cursor-pointer items-center px-6 py-3 font-semibold text-gray-700 hover:bg-indigo-50">
+            <div className="flex cursor-pointer items-center px-3 md:px-6 py-3 font-semibold text-gray-700 hover:bg-indigo-50">
               <User className="mr-3 h-5 w-5 text-indigo-500" /> Profile
             </div>
             <div
-              className="cursor-pointer px-6 py-3 hover:bg-indigo-50"
+              className="cursor-pointer px-3 md:px-6 py-3 hover:bg-indigo-50"
               onClick={handleLogout}
             >
               <div className="flex items-center font-semibold text-red-500 hover:text-red-600">
@@ -35,12 +35,12 @@ const Dashboard = ({
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 p-6">
+      <main className="flex-1 p-2 md:p-6 ">
         <h1 className="mb-6 text-2xl font-semibold text-gray-800">
           User Profile
         </h1>
 
-        <div className="max-w-md space-y-4 rounded bg-white p-6 shadow-md">
+        <div className="max-w-md space-y-4 rounded bg-white p-3 md:p-6 shadow-md">
           <div>
             <p className="text-sm text-gray-500">Name</p>
             <h2 className="text-lg font-medium text-gray-800">{user.name}</h2>
